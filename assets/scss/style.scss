@@ -1,0 +1,20 @@
+@charset "UTF-8";
+@import "bootstrap";
+
+html * {
+  box-sizing: border-box;
+}
+.carousel-item{
+  // height: 400px;
+}
+.topics {
+  &__title{
+    color: $primary;
+    &:hover{
+    color: lighten($primary,15%);
+    }
+  }
+  &__ditail{
+    text-align: justify;
+  }
+}
